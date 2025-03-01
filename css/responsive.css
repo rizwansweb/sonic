@@ -1,0 +1,84 @@
+@media screen and (max-width: 600px) {
+	.logo img {
+		width: 32px;
+	}
+
+	.logo h3 {
+		font-size: 1.25rem;
+	}
+
+	#banner {
+		padding-top: 110px;
+		padding-bottom: 60px;
+		min-height: 400px;
+	}
+
+	.banner-text h2 {
+		display: inline-block;
+		margin: 0 5px;
+		font-size: 48px;
+		line-height: 48px;
+	}
+
+	.banner-strip {
+		font-size: 0.75rem;
+	}
+
+	#content {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	.presale-status h5 {
+		font-size: 1rem;
+	}
+
+	.progress {
+		height: 1.5rem;
+	}
+
+	.feature h2 {
+		font-size: 1.25rem !important;
+	}
+
+	.feature-2 {
+		margin-top: 0 !important;
+	}
+
+	.feature-3 {
+		margin-top: 0 !important;
+	}
+
+	.feature-5 {
+		margin-top: 0 !important;
+	}
+
+	.feature-star {
+		left: -16px;
+		top: -12px;
+	}
+
+	.feature-star img {
+		width: 32px;
+	}
+
+	ul.list-feature li {
+		background-size: 16px;
+		font-size: 0.9rem;
+		margin-bottom: 0.5rem;
+		padding-left: 24px;
+	}
+
+	.timeContainer .wrapper {
+		gap: 15px;
+	}
+
+	.timeContainer .wrapper div h2 {
+		font-size: 2.5rem;
+		margin-bottom: 0px;
+	}
+
+	.timeContainer .wrapper div small {
+		font-size: 0.75rem;
+	}
+}

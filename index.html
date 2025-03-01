@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Sonic Jackpot</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link href="css/custom.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+   </head>
+   <body>
+      <header class="py-4 position-fixed fixed-top">
+         <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+               <a href="#" class="logo d-flex align-items-center text-decoration-none">
+                  <img src="images/logo.svg" class="me-2"> 
+                  <h3 class="mb-0"><span class="text-white fw-bold">SONIC</span> <span class="fst-italic text-warning">Jackpot</span></h3>
+               </a>
+               <div class="text-end ms-auto">
+                  <button type="button" class="btn btn-warning rounded-pill">Participate</button>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section id="banner">
+         <div class="container">
+            <div class="row align-items-center justify-content-center">
+               <div class="col-md-3">
+                  <div class="banner-text text-center text-md-start mb-4 mb-md-0">
+                     <h2 class="mb-0">WIN</h2>
+                     <h2 class="mb-0">WIN</h2>
+                     <h2 class="mb-0">WIN</h2>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="banner-character mb-3 mb-md-0">
+                     <img src="images/banner-character.svg" class="img-fluid">
+                  </div>
+               </div>
+               <div class="col-8 col-md-3">
+                  <div class="banner-ticket">
+                     <img src="images/banner-ticket.svg" class="img-fluid">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="banner-strip py-2 py-md-3 text-center">
+         <div class="container-fluid">
+            <small>The system ensures fairness using Chainlink VRF for random winner selection and offers a 75% refund for losing tickets, reducing the risk for participants.</small>
+         </div>
+      </div>
+      <!-- TIMER -->
+      <section id="content">
+         <div class="container pb-4 pb-md-5">
+            <div class="row justify-content-center">
+               <div class="col-md-8">
+                  <div class="presale p-4 p-md-5 rounded-4 text-center">
+                     <div class="heading mb-4 mb-md-5">
+                        <h2 class="mb-0 display-4">PRESALE</h2>
+                     </div>
+                     <h5 class="text-white mb-4">Time left for Presale to close</h5>
+                     <div class="timeContainer mb-4">
+                        <div class="wrapper">
+                           <div class="days">
+                              <h2 id="days">DD</h2>
+                              <small>DAYS</small>
+                           </div>
+                           <div class="hours">
+                              <h2 id="hours">HH</h2>
+                              <small>HOURS</small>
+                           </div>
+                           <div class="minutes">
+                              <h2 id="minutes">MM</h2>
+                              <small>MINUTES</small>
+                           </div>
+                           <div class="seconds">
+                              <h2 id="seconds">SS</h2>
+                              <small>SECONDS</small>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="mb-4">
+                        <p class="small text-warning mb-2">Presale completion status</p>
+                        <div class="progress mb-2 rounded-pill p-1 bg-black bg-opacity-25" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                           <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-pill" style="width: 75%"></div>
+                        </div>
+                        <div class="presale-status row g-2 align-items-center justify-content-center">
+                           <div class="col-auto">
+                              <h5 class="fw-light text-white mb-0">$60,000.00</h5>
+                           </div>
+                           <div class="col-auto">
+                              <small class="text-warning">Out of</small>
+                           </div>
+                           <div class="col-auto">
+                              <h5 class="fw-light text-white mb-0">$1,00,000.00</h5>
+                           </div>
+                        </div>
+                     </div>
+                     <a href="#" class="btn btn-warning rounded-pill px-4 py-3">Participate Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container pt-5">
+            <div class="row mb-3">
+               <div class="col-md-12">
+                  <div class="heading mb-5 text-center">
+                     <h2 class="mb-0 display-4">KEY FEATURES</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row g-md-5 align-items-center justify-content-center">
+               <div class="col-11 col-md-6 feature-1 mb-4 mb-md-0">
+                  <div class="feature rounded-3 p-4 p-md-5 position-relative">
+                     <h2 class="fw-bold text-white mb-3">Ticket Purchase</h2>
+                     <ul class="list-feature text-white text-opacity-75 fw-light">
+                        <li>Users buy tickets using $S, after ticket is purchased NFT as ticket number is minted to the user.</li>
+                        <li>Each ticket costs 10 $S.</li>
+                     </ul>
+                     <div class="feature-star position-absolute">
+                        <img src="images/features-star.svg">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-11 col-md-6 feature-2 mb-4 mb-md-0">
+                  <div class="feature rounded-3 p-4 p-md-5 position-relative">
+                     <h2 class="fw-bold text-white mb-3">Automated Lottery Draws</h2>
+                     <ul class="list-feature text-white text-opacity-75 fw-light">
+                        <li>Every 4 hours, tickets are sold.</li>
+                        <li>After sales close, a 30-minute period is allotted for drawing winners.</li>
+                        <li>A 1-hour cooling period follows before the next round begins.</li>
+                     </ul>
+                     <div class="feature-star position-absolute">
+                        <img src="images/features-star.svg">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-11 col-md-6 feature-3 mb-4 mb-md-0">
+                  <div class="feature rounded-3 p-4 p-md-5 position-relative">
+                     <h2 class="fw-bold text-white mb-0 mb-mb-3">Winner Selection</h2>
+                     <small class="text-secondary">(Chainlink VRF Integration)</small>
+                     <ul class="list-feature text-white text-opacity-75 fw-light mt-3 mt-md-0">
+                        <li>10 winners are randomly chosen per round.</li>
+                        <li>25% of the total ticket pool is distributed among winners.</li>
+                     </ul>
+                     <div class="feature-star position-absolute">
+                        <img src="images/features-star.svg">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-11 col-md-6 feature-4 mb-4 mb-md-0">
+                  <div class="feature rounded-3 p-4 p-md-5 position-relative">
+                     <h2 class="fw-bold text-white mb-0 mb-mb-3">Refund System</h2>
+                     <small class="text-secondary">(Loss Protection)</small>
+                     <ul class="list-feature text-white text-opacity-75 fw-light mt-3 mt-md-0">
+                        <li>75% of ticket price refunded to losing participants.</li>
+                        <li>This ensures users don’t lose everything if they don’t win.</li>
+                     </ul>
+                     <div class="feature-star position-absolute">
+                        <img src="images/features-star.svg">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-11 col-md-6 feature-5 mb-4 mb-md-0">
+                  <div class="feature rounded-3 p-4 p-md-5 position-relative">
+                     <h2 class="fw-bold text-white mb-3">Security & Transparency</h2>
+                     <ul class="list-feature text-white text-opacity-75 fw-light">
+                        <li>All transactions and lottery logic are on-chain and verifiable.</li>
+                        <li>Funds are securely handled by smart contracts.</li>
+                     </ul>
+                     <div class="feature-star position-absolute">
+                        <img src="images/features-star.svg">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-11 col-md-6 feature-6 mb-4 mb-md-0">
+                  <div class="feature rounded-3 p-4 p-md-5 position-relative">
+                     <h2 class="fw-bold text-white mb-3">Prize Distribution & Fees</h2>
+                     <ul class="list-feature text-white text-opacity-75 fw-light">
+                        <li>Winners must claim rewards via the dApp.</li>
+                     </ul>
+                     <div class="feature-star position-absolute">
+                        <img src="images/features-star.svg">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="py-4 border-top border-2 border-warning">
+         <div class="container">
+            <div class="row align-items-center justify-content-md-between">
+               <div class="col-md-6">
+                  <a href="#" class="logo d-flex align-items-center text-decoration-none mb-3 mb-md-0">
+                     <img src="images/logo.svg" class="me-2"> 
+                     <h3 class="mb-0"><span class="text-white fw-bold">SONIC</span> <span class="fst-italic text-warning">Jackpot</span></h3>
+                  </a>
+               </div>
+               <div class="col-md-6 text-md-end text-white">
+                  <small class="me-2 d-block d-md-inline-block mb-2 mb-md-0">Join Our Community:</small>
+                  <a href="#" class="btn btn-outline-light mx-1"><i class="bi bi-discord"></i></a>
+                  <a href="#" class="btn btn-outline-light mx-1"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" class="btn btn-outline-light mx-1"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="btn btn-outline-light ms-1"><i class="bi bi-instagram"></i></a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="js/timer.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   </body>
+</html>
