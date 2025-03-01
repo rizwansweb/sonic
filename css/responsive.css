@@ -9,15 +9,15 @@
 
 	#banner {
 		padding-top: 110px;
-		padding-bottom: 60px;
+		padding-bottom: 40px;
 		min-height: 400px;
 	}
 
 	.banner-text h2 {
 		display: inline-block;
 		margin: 0 5px;
-		font-size: 48px;
-		line-height: 48px;
+		font-size: 36px;
+		line-height: 36px;
 	}
 
 	.banner-strip {
@@ -26,7 +26,7 @@
 
 	#content {
 		padding-top: 3rem;
-		padding-bottom: 3rem;
+		padding-bottom: 2rem;
 	}
 
 	.presale-status h5 {
@@ -37,8 +37,12 @@
 		height: 1.5rem;
 	}
 
-	.feature h2 {
-		font-size: 1.25rem !important;
+	.feature {
+		min-height: auto !important;
+	}
+
+	.feature h5 {
+		font-size: 1.15rem !important;
 	}
 
 	.feature-2 {
@@ -54,17 +58,17 @@
 	}
 
 	.feature-star {
-		left: -16px;
-		top: -12px;
+		left: -12px;
+		top: -8px;
 	}
 
 	.feature-star img {
-		width: 32px;
+		width: 24px;
 	}
 
 	ul.list-feature li {
 		background-size: 16px;
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 		margin-bottom: 0.5rem;
 		padding-left: 24px;
 	}
