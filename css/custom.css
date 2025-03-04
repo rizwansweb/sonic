@@ -10,7 +10,7 @@ header {
 }
 
 .logo img {
-	width: 28px;
+	width: 54px;
 }
 
 #banner {
@@ -28,8 +28,8 @@ header {
 	font-size: 128px;
 	line-height: 110px;
 	font-weight: 900;
-	background: rgb(253, 134, 32);
-	background: linear-gradient(180deg, rgba(253, 134, 32, 1) 0%, rgba(255, 215, 60, 1) 100%);
+	background: rgb(255, 215, 60);
+	background: linear-gradient(180deg, rgba(253, 76, 101, 1) 0%, rgba(255, 215, 60, 1) 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -69,7 +69,7 @@ header {
 }
 
 .banner-strip {
-	background: #E49A24;
+	background: #FFD73C;
 }
 
 #content {
@@ -83,22 +83,18 @@ header {
 }
 
 .presale {
-	background: rgb(245, 68, 48);
-	background: linear-gradient(180deg, rgba(245, 68, 48, 0.5) 0%, rgba(245, 68, 48, 0.05) 100%);
+	background: rgb(253, 76, 101);
+	background: linear-gradient(180deg, rgba(253, 76, 101, 0.8) 0%, rgba(253, 76, 101, 0.05) 100%);
 }
 
 .winners {
-	background: rgb(245, 68, 48);
-	background: linear-gradient(180deg, rgba(245, 68, 48, 0.5) 0%, rgba(245, 68, 48, 0.05) 100%);
+	background: rgb(81, 217, 26);
+	background: linear-gradient(180deg, rgba(81, 217, 26, 0.8) 0%, rgba(81, 217, 26, 0.05) 100%);
 }
 
 .heading h3 {
 	font-weight: 800;
-	background: rgb(253, 134, 32);
-	background: linear-gradient(180deg, rgba(253, 134, 32, 1) 0%, rgba(255, 215, 60, 1) 100%);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #FFD73C;
 }
 
 .progress {
@@ -106,8 +102,8 @@ header {
 }
 
 .feature {
-	background: rgb(46, 21, 10);
-	background: linear-gradient(90deg, rgba(148, 67, 31, 0.3) 0%, rgba(46, 21, 10, 0.3) 100%);
+	background: rgb(253, 76, 101);
+	background: linear-gradient(90deg, rgba(253, 76, 101, 0.3) 0%, rgba(253, 76, 101, 0) 100%);
 	min-height: 190px !important;
 }
 
@@ -141,8 +137,8 @@ ul.list-feature li:last-child {
 }
 
 footer {
-	background: rgb(236, 67, 59);
-	background: linear-gradient(0deg, rgba(236, 67, 59, 0.5) 0%, rgba(236, 67, 59, 0.3) 100%);
+	background: rgb(81, 217, 26);
+	background: linear-gradient(0deg, rgba(81, 217, 26, 0.5) 0%, rgba(81, 217, 26, 0.3) 100%);
 }
 
 /* TIMER STYLES */
